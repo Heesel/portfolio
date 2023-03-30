@@ -6,7 +6,7 @@
             <a href="#" class="inline-block bg-green-600 font-semibold rounded-lg py-4 px-5 lg:px-8 text-white mt-6">Get in touch</a>
         </div>
         <div class="col-span-2 md:col-span-1 flex flex-row space-x-2 order-1 md:order-2 items-center justify-center">
-            <img src="header.svg" alt="" class="max-w-md" />
+            <img src="" alt="" class="max-w-md" />
         </div>
     </div>
 </template>
