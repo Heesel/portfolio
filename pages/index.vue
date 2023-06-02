@@ -7,7 +7,7 @@
                 <a href="#" class="inline-block bg-green-600 hover:bg-green-700 transition ease-in duration-150 py-4 px-5 lg:px-8 text-white mt-6">Get in touch</a>
             </div>
             <div class="col-span-2 md:col-span-1 flex flex-row space-x-2 order-1 md:order-2 items-center justify-center">
-                <img src="header.svg" alt="e" class="max-w-sm md:max-w-md object-cover px-6" />
+                <img src="/header.svg" alt="e" class="max-w-sm md:max-w-md object-cover px-6" />
             </div>
         </div>
     </section>
@@ -20,7 +20,7 @@
             <h2 class="text-3xl text-white font-bold mb-6 px-3">Hand-picked projecs for you to see</h2>
             <div class="flex flex-col lg:flex-row">
                 <div class="px-3 lg:px-0">
-                    <img class="mb-8 h-full w-full object-cover" src="klompmaker.webp" loading="lazy" alt="Klompmaker fietsen"/>
+                    <img class="mb-8 h-full w-full object-cover" src="/klompmaker.webp" loading="lazy" alt="Klompmaker fietsen"/>
                 </div>
                 <div class="w-full px-3 md:px-6">
                     <article class="relative h-full px-6 lg:px-12 py-10 bg-gray-600 rounded-lg">
