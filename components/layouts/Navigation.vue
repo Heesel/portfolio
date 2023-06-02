@@ -1,26 +1,26 @@
 <template>
-    <nav aria-label="Site Nav" class="mx-auto flex max-w-screen-xl items-center justify-between p-4">
-        <a href="/" class="inline-flex h-10 w-10 items-center justify-center rounded-lg">
+    <nav aria-label="navigation" class="container mx-auto flex max-w-screen-2xl items-center justify-between p-4">
+        <a aria-label="logo" href="/" class="inline-flex h-10 w-10 items-center justify-center rounded-lg">
             <span class="sr-only">Logo</span>
             👋
         </a>
 
         <ul class="flex items-center gap-2 text-sm font-medium text-gray-500">
-            <li class="hidden lg:block">
-                <a class="rounded-lg px-3 py-2 hover:text-green-500 ease-in duration-200" href="/"> Home </a>
-            </li>
 
-            <li><a class="rounded-lg px-3 py-2 hover:text-green-500 ease-in duration-200" href=""> Projects </a></li>
+            <li class="rounded-lg px-3 py-2 hover:text-green-500 ease-in duration-200 hover:cursor-pointer" @click="scrollToSection('projects')" aria-label="projects"> Projects</li>
 
-            <li>
-                <a class="inline-flex items-center gap-2 rounded-lg px-3 py-2" href="" target="_blank">
-                    External
+            <li class="rounded-lg px-3 py-2 hover:text-green-500 ease-in duration-200 hover:cursor-pointer" @click="scrollToSection('about')" aria-label="about"> About</li>
 
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-4 w-4">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                    </svg>
-                </a>
-            </li>
+            <li class="rounded-lg px-3 py-2 hover:text-green-500 ease-in duration-200 hover:cursor-pointer" @click="scrollToSection('contact')" aria-label="contact"> Contact</li>
+
         </ul>
     </nav>
 </template>
+<script setup lang="ts">
+
+function scrollToSection(id: string) {
+    const section = document.getElementById(id)
+    section!.scrollIntoView({behavior: "smooth"});
+}
+
+</script>
