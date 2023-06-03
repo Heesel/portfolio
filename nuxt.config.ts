@@ -1,17 +1,9 @@
 export default defineNuxtConfig({
-    modules: ['@nuxtjs/tailwindcss', '@nuxtjs/pwa',],
+    modules: ['@nuxtjs/tailwindcss'],
     components: [
         { path: '~/components/layouts', prefix: 'Layouts' },
         '~/components'
     ],
-    pwa: {
-      manifest: { 
-        name: 'My Nuxt 3 portfolio website',
-        short_name: 'My portfolio',
-        description: "My portfolio built with Nuxt 3",
-        lang: 'en',
-      },
-    },
     app: {
       head: {
         title: 'My portfolio',

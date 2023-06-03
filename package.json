@@ -14,8 +14,5 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.6.4",
     "nuxt": "^3.3.1"
-  },
-  "dependencies": {
-    "@nuxtjs/pwa": "^3.3.5"
   }
 }
