@@ -1,4 +1,8 @@
 {
+  "name": "nuxt-tailwind-pwa",
+  "version": "1.0.0",
+  "description": "My portfolio built with Nuxt 3",
+  "author": "Hesselp",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -10,5 +14,8 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.6.4",
     "nuxt": "^3.3.1"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^3.3.5"
   }
 }

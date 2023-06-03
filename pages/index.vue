@@ -3,8 +3,8 @@
         <div class="container max-w-screen-2xl mx-auto grid grid-cols-2 gap-8 lg:gap-24 md:items-center py-12 lg:py-20 p-4">
             <div class="col-span-2 md:col-span-1 order-2 md:order-1">
                 <h1 class="text-2xl sm:text-3xl lg:text-4xl text-white font-medium mb-6">Hey, I'm <span class="text-green-500">Hessel</span> - a detail-oriented <span class="text-green-500">web developer</span> with a passion</h1>
-                <p class="text-xl text-gray-500 mb-6">When, while the lovely valley teems with vapour around me, and the meridian sun strikes the waiting be females upper surface of the impenetrable foliage of my trees</p>
-                <a href="#" class="inline-block bg-green-600 hover:bg-green-700 transition ease-in duration-150 py-4 px-5 lg:px-8 text-white mt-6">Get in touch</a>
+                <p class="text-xl text-gray-500 mb-6">Stick around to see some of my work and to get to know me.</p>
+                <button @click="scrollToSection('contact')" aria-label="get in touch" class="inline-block bg-green-600 hover:bg-green-700 transition ease-in duration-150 py-4 px-5 lg:px-8 text-white mt-6">Get in touch</button>
             </div>
             <div class="col-span-2 md:col-span-1 flex flex-row space-x-2 order-1 md:order-2 items-center justify-center">
                 <img src="/header.svg" alt="e" class="max-w-sm md:max-w-md object-cover px-6" />
@@ -20,7 +20,7 @@
             <h2 class="text-3xl text-white font-bold mb-6 px-3">Hand-picked projecs for you to see</h2>
             <div class="flex flex-col lg:flex-row">
                 <div class="px-3 lg:px-0">
-                    <img class="mb-8 h-full w-full object-cover" src="/klompmaker.webp" loading="lazy" alt="Klompmaker fietsen"/>
+                    <img class="mb-8 h-full w-full object-cover" src="/klompmaker.webp" width="1024" height="1024" loading="lazy" alt="Klompmaker fietsen"/>
                 </div>
                 <div class="w-full px-3 md:px-6">
                     <article class="relative h-full px-6 lg:px-12 py-10 bg-gray-600 rounded-lg">
@@ -119,3 +119,28 @@
         </div>
     </section>
 </template>
+
+<script setup lang="ts">
+import Logo from '~/assets/logo.svg'
+useHead({
+    meta: [
+        {   hid: 'og:description', property: 'og:description', content: "Hey, I'm Hessel - a detail-oriented web developer with a passion"},
+        {   hid: 'og:title', property: 'og:title', content: 'My portfolio'},
+        {   hid: 'og:site_name', property: 'og:site_name', content: 'heesel.nl'},
+        {   hid: 'og:url', property: 'og:url', content: 'https://www.heesel.nl'},
+        {   hid: 'og:image', property: 'og:image', content: `https://www.heesel.nl${Logo}`},
+        {   hid: 'og:image:secure_url', property: 'og:secure_url', content: `https://www.heesel.nl${Logo}`},
+
+        {   hid: 'twitter:card', property: 'twitter:card', content: `https://www.heesel.nl${Logo}`},
+        {   hid: 'twitter:description', property: 'twitter:description', content: "Hey, I'm Hessel - a detail-oriented web developer with a passion"},
+        {   hid: 'twitter:title', property: 'twitter:title', content: 'My portfolio'},
+        {   hid: 'twitter:image', property: 'twitter:image', content: `https://www.heesel.nl${Logo}`},
+    ]
+})
+
+function scrollToSection(id: string) {
+    const section = document.getElementById(id)
+    section!.scrollIntoView({behavior: "smooth"});
+}
+
+</script>
