@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Klompmaker fietsen",
+        "url": "https://www.klompmakerfietsen.nl/",
+        "description": "<p style=''>Klompmaker Fietsen is a bicycle shop located in Elburg. André, the owner, wanted a revamped webshop for his bicycle store. This webshop had to include different pages such as an assortment page, repair page, and also a rental page.</p> <p style='margin-top: 1.5rem'>On the assortment page, where you can view a selection of bicycles, you can also filter by criteria such as price, brand, and even the color of the bicycle. The webshop is built using a JavaScript framework called Svelte and is integrated with Shopify.</p>",
+        "image": {
+            "path": "/klompmaker.webp",
+            "alt": "Klompmaker fietsen"
+        },
+        "technologies": [
+            { "name": "JavaScript", "color": "#fde047" },
+            { "name": "Svelte", "color": "#fb923c" },
+            { "name": "Shopify", "color": "#4ade80" },
+            { "name": "TailwindCSS", "color": "#38bdf8" }
+        ],
+        "associates": {
+            "name": "Beter Bekend",
+            "url": "https://www.beterbekend.nl/"
+        }
+    },
+    {
+        "name": "Grrp.me",
+        "url": "https://www.grrp.me/",
+        "description":"<p style=''>Grrp.me allows users to easily create a custom landing page with all their links. The Grrp.me link of your profile can then be shared on social media platforms such as Instagram or Facebook, making it easy for others to access the user's profiles on different sites. Grrp.me is developed using Laravel and MySQL for the back-end, and Vue.js and TailwindCSS for the front-end.</p> <p style='margin-top: 1.5rem'>I built this project at my internship at a web agency named Beter Bekend located in The Netherlands. Building Grrp.me was very educational because, I learned a lot about Laravel, Vue and Tailwindcss.</p>",
+        "image": {
+            "path": "/grrp.webp",
+            "alt": "Grrp.me"
+        },
+        "technologies": [
+            { "name": "JavaScript", "color": "#fde047" },
+            { "name": "Vue", "color": "#4ade80" },
+            { "name": "Laravel", "color": "#f87171" },
+            { "name": "TailwindCSS", "color": "#38bdf8" },
+            { "name": "MySQL", "color": "#d1d5db" }
+        ],
+        "associates": {
+            "name": "Beter Bekend",
+            "url": "https://www.beterbekend.nl/"
+        }
+    },
+    {
+        "name": "WES Educatie",
+        "url": "https://weseducatie.nl/nl",
+        "description": "<p>WES is a national agency that focuses on integration, reintegration and providing various training courses. The company was founded in 2003 by Joan Kruitwagen – Winter. WES stands for quality and continuity. There is a lot of talk about integration and reintegration. We just do it.</p> <p style='margin-top: 1.5rem;'>WES feels responsible for those people who do not yet participate in the social process, for example in the form of paid employment. WES wants to strengthen the position of job seekers of both phase I and phase II and lower.</p>",
+        "image": {
+            "path": "/wes.webp",
+            "alt": "WES Educatie"
+        },
+        "technologies": [
+            { "name": "JavaScript", "color": "#fde047" },
+            { "name": "Nuxt", "color": "#22c55e" },
+            { "name": "TailwindCSS", "color": "#38bdf8" }
+        ],
+        "associates": {
+            "name": "Beter Bekend",
+            "url": "https://www.beterbekend.nl/"
+        }
+    },
+    {
+        "name": "AI Art",
+        "url": "https://ai-art-five.vercel.app/",
+        "description": "This is a project that I made because, I wanted some place to show of my images that I made using Stable Diffusion. The images are uploaded to Azure storage and the information is stored in MongoDB. For the project, I used Nuxt, TypeScript and TailwindCSS but, it was also my first time using TypeScript.",
+        "image": {
+            "path": "/ai-art.webp",
+            "alt": "AI Art"
+        },
+        "technologies": [
+            { "name": "TypeScript", "color": "#60a5fa" },
+            { "name": "Nuxt", "color": "#22c55e" },
+            { "name": "TailwindCSS", "color": "#38bdf8" },
+            { "name": "MongoDB", "color": "#065f46" },
+            { "name": "Azure storage", "color": "#2563eb" }
+        ],
+        "associates": {
+            "name": "No one",
+            "url": "https://www.heesel.nl/"
+        }
+    }
+]
