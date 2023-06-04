@@ -1,5 +1,5 @@
 <template>
-    <footer aria-label="Site Footer" class="bg-gray-800 text-gray-500">
+    <footer aria-label="Site Footer" class="bg-gray-800">
         <div class="container mx-auto max-w-screen-2xl px-3 py-8">
             <div class="sm:flex sm:items-center sm:justify-between">
             <div class="flex justify-center sm:justify-start">

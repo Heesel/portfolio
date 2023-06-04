@@ -5,7 +5,7 @@
             👋
         </a>
 
-        <ul class="flex items-center gap-2 text-sm font-medium text-gray-500">
+        <ul class="flex items-center gap-2 text-sm font-medium text-white">
 
             <li class="rounded-lg px-3 py-2 hover:text-green-500 ease-in duration-200 hover:cursor-pointer" @click="scrollToSection('projects')" aria-label="projects"> Projects</li>
 
