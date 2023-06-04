@@ -2,8 +2,8 @@
     <section>
         <div class="container lg:max-w-screen-2xl mx-auto grid grid-cols-2 gap-8 lg:gap-24 md:items-center py-12 lg:py-20 p-4">
             <div class="col-span-2 md:col-span-1 order-2 md:order-1">
-                <h1 class="text-2xl sm:text-3xl lg:text-4xl text-white font-medium mb-6">Hey, I'm <span class="text-green-500">Hessel</span> - a detail-oriented <span class="text-green-500">web developer</span> with a passion</h1>
-                <p class="text-xl text-gray-500 mb-6">Stick around to see some of my work and to get to know me.</p>
+                <h1 class="text-2xl sm:text-3xl lg:text-4xl text-white font-medium mb-8">Hey, I'm <span class="text-green-500">Hessel</span> - a detail-oriented <span class="text-green-500">web developer</span> with a passion</h1>
+                <p class="text-xl text-white mb-6">Stick around to see some of my work and to get to know me.</p>
                 <button @click="scrollToSection('contact')" aria-label="get in touch" class="inline-block bg-green-600 hover:bg-green-700 transition ease-in duration-150 py-4 px-5 lg:px-8 text-white mt-6">Get in touch</button>
             </div>
             <div class="col-span-2 md:col-span-1 flex flex-row space-x-2 order-1 md:order-2 items-center justify-center">
@@ -95,14 +95,14 @@
                             <span class="text-lg text-white font-medium mb-6">Who am I</span>
                         </div>
                         <article>
-                            <p class="text-gray-500 max-w-xl text-lg">
+                            <p class="text-white max-w-xl text-lg">
                                 Hello!
 
                                 My name is Hessel, I am {{ age }} years old and I'm a physically disabled junior web developer from the Netherlands. 
                                 I like to build things for the web and I'm always looking for new challenges.
                                 My hobbies include playing video games, watching anime, some video editing, creating images using AI and of course coding.
                             </p>
-                            <p class="mt-6 text-gray-500">
+                            <p class="mt-6 text-white">
                                 Fun fact: A lot of this website is created by just using my voice 😎
                             </p>
                         </article>
@@ -119,7 +119,7 @@
             </div>
             <h3 class="text-3xl text-white font-bold mb-6 px-3">Interested in working together?</h3>
             <div class="mt-6 px-3">
-                <p class="max-w-lg text-gray-500 text-lg">
+                <p class="max-w-lg text-white text-lg">
                     As a web developer, I can bring your digital ideas to life. 
                     Whether you need a new website or custom web application I've got you covered. Let's collaborate and create a seamless online experience for your users. 
                     Get in touch and let's discuss how we can work together to achieve your goals.
