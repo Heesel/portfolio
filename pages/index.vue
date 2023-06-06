@@ -22,8 +22,8 @@
                 <div class="px-3 lg:px-0">
                     <img v-if="projects" class="mb-8 h-full w-full object-cover" :src="projects[selectedProject].image.path" width="1024" height="1024" loading="lazy" :alt="projects[selectedProject].image.alt"/>
                 </div>
-                <div class="w-full px-3 md:px-6">
-                    <div class="space-x-3 space-y-3 sm:space-y-0 lg:-mt-8 ml-4">
+                <div class="w-full md:px-6">
+                    <div class="space-x-3 space-y-3 sm:space-y-0 lg:-mt-8 ml-2 md:ml-4">
                         <div v-for="(project, index) in projects" :key="index" @click="selectedProject = index" :class="{'text-green-500': selectedProject === index, 'text-white': selectedProject !== index}" class="inline-block bg-gray-600 px-3 py-1 sm:rounded-t-md cursor-pointer">
                             <span>{{project.name}}</span>
                         </div>
