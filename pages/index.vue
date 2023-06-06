@@ -17,7 +17,7 @@
                 <div class="w-24 bg-green-600 rounded-full py-0.5 px-6 mb-6"></div>
                 <span class="text-lg text-white font-medium mb-6">My Projects</span>
             </div>
-            <h2 class="text-3xl text-white font-bold mb-6 px-3">Hand-picked projecs for you to see</h2>
+            <h2 class="text-3xl text-white font-bold mb-6 px-3">Hand-picked projects for you to see</h2>
             <div class="flex flex-col lg:flex-row">
                 <div class="px-3 lg:px-0">
                     <img v-if="projects" class="mb-8 h-full w-full object-cover" :src="projects[selectedProject].image.path" width="1024" height="1024" loading="lazy" :alt="projects[selectedProject].image.alt"/>
