@@ -124,15 +124,41 @@
                     Whether you need a new website or custom web application I've got you covered. Let's collaborate and create a seamless online experience for your users. 
                     Get in touch and let's discuss how we can work together to achieve your goals.
                 </p>
-                <a href="mailto:hesselpa@live@@nl" onmouseover="this.href=this.href.replace('@@','.')" class="inline-block bg-green-600 hover:bg-green-700 transition ease-in duration-150 py-4 px-5 lg:px-8 text-white mt-6">
+                <div class="flex flex-wrap gap-3 mt-5 justify-start">
+                    <a href="https://github.com/Heesel" title="GitHub" target="_blank" class="bg-[#131921] px-2 py-2 rounded-full text-white text-opacity-80">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/hessel-palland-26a06720b/" title="Linkedin" target="_blank" class="bg-[#131921] px-2 py-2 rounded-full text-white text-opacity-80">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                            <path d="M8 11l0 5" />
+                            <path d="M8 8l0 .01" />
+                            <path d="M12 16l0 -5" />
+                            <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                        </svg>
+                    </a>
+                    <a href="mailto:hesselpa@live@@nl" onmouseover="this.href=this.href.replace('@@','.')" title="Email" class="bg-[#131921] px-2 py-2 rounded-full text-white text-opacity-80">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M10 14l11 -11" />
+                            <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" />
+                        </svg>
+                    </a>
+                </div>
+                <!-- <a href="mailto:hesselpa@live@@nl" onmouseover="this.href=this.href.replace('@@','.')" class="inline-block bg-green-600 hover:bg-green-700 transition ease-in duration-150 py-4 px-5 lg:px-8 text-white mt-6">
                     Contact me
-                </a>
+                </a> -->
             </div>
         </div>
     </section>
 </template>
 
 <script setup lang="ts">
+// @ts-ignore
 import Logo from '~/assets/logo.svg'
 import Projects from '~/assets/projects.json'
 useHead({
@@ -161,7 +187,7 @@ let selectedProject = ref(0)
 
 // createe a date subtracting the birthdate from the current date
 const age = computed(() => {
-    let birthDate = new Date('09-07-2001');
+    let birthDate = new Date('2001-09-07');
     let currentDate = new Date();
   
     let currentAge = currentDate.getFullYear() - birthDate.getFullYear();
@@ -172,8 +198,5 @@ const age = computed(() => {
     }
   
   return currentAge;
-})
-
-console.log(projects)
-   
+})   
 </script>
