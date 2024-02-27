@@ -1,5 +1,5 @@
 <template>
-    <nav aria-label="navigation" class="container mx-auto flex max-w-screen-2xl items-center justify-between p-4">
+    <nav aria-label="navigation" class="container mx-auto flex max-w-screen-2xl items-center justify-between p-4 bg-gray-900">
         <a aria-label="logo" href="/" class="inline-flex h-10 w-10 items-center justify-center rounded-lg">
             <span class="sr-only">Logo</span>
             👋

@@ -161,6 +161,9 @@
 // @ts-ignore
 import Logo from '~/assets/logo.svg'
 import Projects from '~/assets/projects.json'
+definePageMeta({
+    layout: 'default'
+})
 useHead({
     meta: [
         {   hid: 'og:description', property: 'og:description', content: "Hey, I'm Hessel - a detail-oriented web developer with a passion"},
