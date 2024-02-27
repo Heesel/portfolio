@@ -14,5 +14,8 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.6.4",
     "nuxt": "^3.7.3"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.10"
   }
 }
