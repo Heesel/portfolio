@@ -188,7 +188,7 @@ function scrollToSection(id: string) {
 const projects: Array<any> = Projects
 let selectedProject = ref(0)
 
-// createe a date subtracting the birthdate from the current date
+// create a date subtracting the birthdate from the current date
 const age = computed(() => {
     let birthDate = new Date('2001-09-07');
     let currentDate = new Date();
