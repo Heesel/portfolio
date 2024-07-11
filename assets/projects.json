@@ -55,25 +55,5 @@
             "name": "Beter Bekend",
             "url": "https://www.beterbekend.nl/"
         }
-    },
-    {
-        "name": "AI Art",
-        "url": "https://ai-art-five.vercel.app/",
-        "description": "This is a project that I made because, I wanted some place to show of my images that I made using Stable Diffusion. The images are uploaded to Azure storage and the information is stored in MongoDB. For the project, I used Nuxt, TypeScript and TailwindCSS but, it was also my first time using TypeScript.",
-        "image": {
-            "path": "/ai-art.webp",
-            "alt": "AI Art"
-        },
-        "technologies": [
-            { "name": "TypeScript", "color": "#60a5fa" },
-            { "name": "Nuxt", "color": "#22c55e" },
-            { "name": "TailwindCSS", "color": "#38bdf8" },
-            { "name": "MongoDB", "color": "#065f46" },
-            { "name": "Azure storage", "color": "#2563eb" }
-        ],
-        "associates": {
-            "name": "No one",
-            "url": "https://www.heesel.nl/"
-        }
     }
 ]
