@@ -168,15 +168,15 @@ useHead({
     meta: [
         {   hid: 'og:description', property: 'og:description', content: "Hey, I'm Hessel - a detail-oriented web developer with a passion"},
         {   hid: 'og:title', property: 'og:title', content: 'My portfolio'},
-        {   hid: 'og:site_name', property: 'og:site_name', content: 'heesel.nl'},
-        {   hid: 'og:url', property: 'og:url', content: 'https://www.heesel.nl'},
+        {   hid: 'og:site_name', property: 'og:site_name', content: 'hesselp.dev'},
+        {   hid: 'og:url', property: 'og:url', content: 'https://www.hesselp.dev'},
         {   hid: 'og:image', property: 'og:image', content: `https://www.heesel.nl${Logo}`},
-        {   hid: 'og:image:secure_url', property: 'og:secure_url', content: `https://www.heesel.nl${Logo}`},
+        {   hid: 'og:image:secure_url', property: 'og:secure_url', content: `https://www.hesselp.dev${Logo}`},
 
-        {   hid: 'twitter:card', property: 'twitter:card', content: `https://www.heesel.nl${Logo}`},
+        {   hid: 'twitter:card', property: 'twitter:card', content: `https://www.hesselp.dev${Logo}`},
         {   hid: 'twitter:description', property: 'twitter:description', content: "Hey, I'm Hessel - a detail-oriented web developer with a passion"},
         {   hid: 'twitter:title', property: 'twitter:title', content: 'My portfolio'},
-        {   hid: 'twitter:image', property: 'twitter:image', content: `https://www.heesel.nl${Logo}`},
+        {   hid: 'twitter:image', property: 'twitter:image', content: `https://www.hesselp.dev${Logo}`},
     ]
 })
 
